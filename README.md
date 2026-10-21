@@ -33,4 +33,3 @@ The `.nojekyll` file tells GitHub Pages to serve the site as static files. All s
 Review edits made in the website are saved only in that browser’s local storage. They do not update this repository or sync across devices. Browser-saved reviews from the previous Sites address do not automatically transfer to the GitHub Pages address; use **Export journal** on the previous site to keep a copy first.
 
 Product photos and product branding belong to their respective owners; source links are listed in `photo-credits.html`. Three.js is bundled locally under its MIT license in `vendor/THREE-LICENSE.txt`.
-

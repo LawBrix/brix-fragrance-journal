@@ -1,0 +1,12 @@
+.hero-art{isolation:isolate}
+.perfume-viewer{position:absolute;inset:0;z-index:2;outline-offset:-7px}
+.perfume-viewer canvas{display:block;width:100%;height:100%;cursor:grab;touch-action:pan-y}
+.perfume-viewer canvas:active{cursor:grabbing}
+.hero-art.has-3d>.bottle{visibility:hidden}
+.perfume-controls{position:absolute;left:32px;right:32px;bottom:65px;z-index:3;display:flex;align-items:center;justify-content:center;gap:18px;color:#c9bb9d;font-size:8px;letter-spacing:2px;pointer-events:none}
+.perfume-controls[hidden]{display:none}
+.perfume-controls button{background:#16181399;border:1px solid #b1965840;color:#d4bf93;border-radius:50%;width:30px;height:30px;font-size:16px;pointer-events:auto;transition:background .3s}
+.perfume-controls button:hover{background:#54452a}
+.hero-art .art-caption{z-index:3;pointer-events:none}
+@media(prefers-reduced-motion:no-preference){.perfume-viewer{animation:bottle-entrance 1.65s var(--cinema-ease) both}}
+@media(max-width:600px){.perfume-controls{bottom:40px;font-size:7px;gap:12px}.perfume-controls button{width:25px;height:25px;font-size:14px}}

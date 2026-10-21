@@ -1,0 +1,20 @@
+.seasonal-favorites{padding:76px 6% 10px;scroll-margin-top:25px}
+.seasonal-favorites>.section-heading{align-items:center;gap:30px;margin-bottom:30px}
+.seasonal-favorites>.section-heading h2{font-size:54px;line-height:1.1;max-width:550px}
+.seasonal-favorites>.section-heading>p{max-width:235px;font-size:12px;line-height:1.9;color:var(--muted)}
+.seasonal-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.season-pick{display:grid;grid-template-columns:38% 1fr;align-items:stretch;text-align:left;padding:0;background:linear-gradient(125deg,#252b27,#1b1f1b);color:var(--ink);border:1px solid #465047;overflow:hidden;min-height:295px}
+.season-pick.winter-pick{background:linear-gradient(125deg,#30271d,#201d18);border-color:#554632}
+.season-photo{background:#e9e5da;display:grid;place-items:center;padding:25px 18px;min-width:0}
+.season-photo img{display:block;width:100%;height:220px;object-fit:contain;mix-blend-mode:multiply}
+.season-copy{padding:30px 24px;display:flex;flex-direction:column;align-items:flex-start}
+.season-label{display:flex;align-items:center;gap:8px;font-size:9px;letter-spacing:2px;color:#bdcbb9;margin-bottom:28px}
+.winter-pick .season-label{color:#d2b17c}.season-symbol{font-size:19px;line-height:1}
+.season-copy .card-brand{margin-bottom:11px}.season-copy h3{font:36px/1.03 'Cormorant Garamond',Georgia,serif;margin:0;letter-spacing:-.4px}
+.season-copy>p{font-size:11px;color:var(--muted);line-height:1.9;margin:15px 0 20px}
+.season-action{margin-top:auto;border-bottom:1px solid #c2a66c66;padding-bottom:5px;color:var(--amber);font-size:10px;line-height:1.7}
+.season-pick:focus-visible{outline-offset:5px}
+@media(prefers-reduced-motion:no-preference){.season-pick{transition:transform .4s var(--cinema-ease),border-color .3s,box-shadow .4s}.season-photo img{transition:transform .6s var(--cinema-ease)}@media(hover:hover) and (pointer:fine){.season-pick:hover{transform:translateY(-5px);border-color:var(--amber);box-shadow:0 12px 24px #0003}.season-pick:hover img{transform:scale(1.035)}}}
+@media(max-width:1000px){.season-copy{padding:25px 20px}.season-copy h3{font-size:31px}.season-label{font-size:8px;letter-spacing:1.6px}.season-action{font-size:9px}}
+@media(max-width:800px){.seasonal-grid{grid-template-columns:1fr}.season-pick{min-height:260px;grid-template-columns:35% 1fr}.season-copy{padding:30px}.season-copy h3{font-size:38px}.season-label{margin-bottom:24px}.season-photo img{height:205px}.seasonal-favorites>.section-heading h2{font-size:47px}}
+@media(max-width:600px){.seasonal-favorites{padding-top:48px}.seasonal-favorites>.section-heading{display:block}.seasonal-favorites>.section-heading h2{font-size:44px}.seasonal-favorites>.section-heading>p{max-width:300px;margin-bottom:0}.seasonal-grid{gap:16px}.season-pick{grid-template-columns:33% 1fr;min-height:265px}.season-photo{padding:24px 13px}.season-photo img{height:180px}.season-copy{padding:25px 20px}.season-copy h3{font-size:32px}.season-copy>p{font-size:10px}.season-action{font-size:9px}nav a[href="#about"]{display:none}}
